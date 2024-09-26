@@ -68,10 +68,6 @@ This is the final project for CS50x, created by **Nigar Valikhanova**. NikkiDiar
 - View your diary entries organized by date on the **Calendar** page.
 - Upload and view your images in the **Gallery**.
 
-## Contributing
-
-Feel free to fork this repository and submit pull requests for any improvements.
-
 ## License
 
 This project is licensed under the MIT License.
