@@ -60,8 +60,6 @@ This is the final project for CS50x, created by **Nigar Valikhanova**. NikkiDiar
    flask run
    ```
 
-5. Access the app in your browser at `http://127.0.0.1:5000/`.
-
 ## Usage
 
 - **Register** a new account, or **log in** with an existing account.
