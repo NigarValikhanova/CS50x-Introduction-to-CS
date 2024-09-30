@@ -1,0 +1,77 @@
+/* styles.css */
+
+/* General Body Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    margin-bottom: 20px;
+}
+
+/* Jumbotron Styling */
+.jumbotron {
+    background-color: #f8f9fa;
+    padding: 2rem 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+/* Button Styles */
+button {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Footer */
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Gallery Images */
+/* CSS for making all images the same size */
+.img-fluid {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+/* Styles for zoom effect */
+.zoom-container {
+    overflow: hidden;
+    position: relative;
+}
+
+.zoom-container img {
+    transition: transform 0.5s ease;
+    width: 100%; /* Ensures images are responsive */
+}
+
+.zoom-container:hover img {
+    transform: scale(1.1);
+}
+
+
+
+/* Forms */
+.form-control {
+    margin-bottom: 15px;
+}
+
+/* Custom Heading */
+h2 {
+    color: #007bff;
+}
+

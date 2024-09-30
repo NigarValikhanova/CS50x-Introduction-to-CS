@@ -1,0 +1,26 @@
+HTML Tags Used:
+1. <nav> - To create the navigation bar at the top of each page.
+2. <div> - To structure the layout and sections of the page.
+3. <h1>, <h2> - Used for main and secondary headings.
+4. <p> - Used for paragraphs of text.
+5. <button> - Used to create interactive buttons.
+6. <img> - Used to display images in the gallery.
+7. <a> - Used for hyperlinks between pages.
+8. <form> - Used to create a form on the contact page.
+9. <input> - Used for text input fields within the form.
+10. <footer> - Used for the footer section of each page.
+
+CSS Properties Used:
+1. font-family - To set the font of the text (e.g., Montserrat).
+2. background-color - To set background colors for different sections (e.g., jumbotron, body).
+3. color - To set the text color (e.g., for headings and footer).
+4. margin - To control spacing between elements (e.g., navbar, buttons).
+5. border-radius - To round the corners of elements (e.g., images, jumbotron).
+
+Bootstrap Features Used:
+- Navbar: Used to create a responsive navigation bar at the top of each page.
+- Button: Bootstrap button styling is applied to the interactive elements.
+- Jumbotron: Used to create a large, attention-grabbing banner for the main page.
+
+JavaScript Feature:
+- The `showAlert()` function adds an alert popup when the "Click Me!" button is pressed.

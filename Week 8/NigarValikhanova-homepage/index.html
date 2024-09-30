@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            // JavaScript for multiple-choice question
+            function checkMultipleChoice(answer, correctAnswer) {
+                let result = document.getElementById("mcq-result");
+                if (answer === correctAnswer) {
+                    document.getElementById(answer).style.backgroundColor = "green";
+                    result.innerHTML = "Correct!";
+                } else {
+                    document.getElementById(answer).style.backgroundColor = "red";
+                    result.innerHTML = "Incorrect";
+                }
+            }
+
+            // JavaScript for free response question
+            function checkFreeResponse() {
+                const userAnswer = document.getElementById("free-response").value.toLowerCase();
+                const correctAnswer = "everest"; // Set the correct answer here
+                let result = document.getElementById("fr-result");
+                if (userAnswer === correctAnswer) {
+                    document.getElementById("free-response").style.backgroundColor = "green";
+                    result.innerHTML = "Correct!";
+                } else {
+                    document.getElementById("free-response").style.backgroundColor = "red";
+                    result.innerHTML = "Incorrect";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <h3>Which planet is known as the Red Planet?</h3>
+                <button id="a" onclick="checkMultipleChoice('a', 'b')">Venus</button>
+                <button id="b" onclick="checkMultipleChoice('b', 'b')">Mars</button>
+                <button id="c" onclick="checkMultipleChoice('c', 'b')">Jupiter</button>
+                <p id="mcq-result"></p>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <h3>What is the tallest mountain in the world?</h3>
+                <input type="text" id="free-response" placeholder="Your answer here">
+                <button onclick="checkFreeResponse()">Submit</button>
+                <p id="fr-result"></p>
+            </div>
+        </div>
+    </body>
+</html>
